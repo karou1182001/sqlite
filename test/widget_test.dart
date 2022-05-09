@@ -203,5 +203,7 @@ void main() {
     await tester.pumpAndSettle();
 
     expect(find.byKey(Key('userItem')), findsNothing);
+
+    print("Todo bien");
   });
 }
